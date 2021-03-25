@@ -17,7 +17,6 @@ module.exports = {
             options: {
                 bases: [
                     {
-                        name: 'books'
                         credential: require('./books.firebase.json'),
                         types: [
                             {
@@ -44,7 +43,6 @@ module.exports = {
                     },
 
                     {
-                        name: 'blog', 
                         credential: require('./blog.firebase.json'), 
                         types: [
                             {

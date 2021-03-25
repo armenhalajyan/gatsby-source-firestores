@@ -17,6 +17,7 @@ module.exports = {
             options: {
                 bases: [
                     {
+                        name: 'books',
                         credential: require('./books.firebase.json'),
                         types: [
                             {
@@ -43,6 +44,7 @@ module.exports = {
                     },
 
                     {
+                        name: 'blog',
                         credential: require('./blog.firebase.json'), 
                         types: [
                             {
@@ -105,7 +107,8 @@ module.exports = {
 
 | Key        | Description                                                                                                                                 |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| bases      | Array of databases, which require credential and types keys                                                                           |
+| bases      | Array of databases, which require name, credential and types keys                                                                           |
+| name       | Arbitrary name for a given database                                                                                                         |
 | credential | Require your private key here                                                                                                               |
 | types      | Array of types, which require the following 3 keys                                                                                          |
 | type       | The type of the collection, which will be used in GraphQL queries. Eg, when `type = Book`, the GraphQL types are named `book` and `allBook` |

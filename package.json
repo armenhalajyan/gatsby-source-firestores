@@ -1,10 +1,10 @@
 {
-  "name": "gatsby-firesource",
-  "version": "2.0.3",
-  "description": "Gatsby source plugin for building websites using Firestore as a data source.",
+  "name": "gatsby-source-firestores",
+  "version": "1.0.0",
+  "description": "Gatsby source plugin for sourcing data from multiple Firestore databases.",
   "main": "gatsby-node.js",
-  "repository": "github:tomphill/gatsby-firesource",
-  "author": "Tom Phillips <info@tomphill.co.uk>",
+  "repository": "github:armenhalajyan/gatsby-source-firestores",
+  "author": "Armen Halajyan <armenhalajyan@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "firebase-admin": "^8.5.0",

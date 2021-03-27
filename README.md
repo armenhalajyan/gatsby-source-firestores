@@ -1,4 +1,4 @@
-# gatsby-firesource [![npm version](https://badge.fury.io/js/gatsby-firesource.svg)](https://badge.fury.io/js/gatsby-firesource)
+# gatsby-source-firestores [![npm version]]
 
 Gatsby source plugin for building websites using multiple Firebase Firestores as a data source. Supports subcollections.
 

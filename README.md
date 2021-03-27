@@ -184,5 +184,5 @@ This project is created solely to suit our requirements, no maintenance/warranty
 
 # Acknowledgement
 
-[@martinreiche/gatsby-firestore] (https://github.com/MartinReiche/gatsby-firestore)
+[@martinreiche/gatsby-firestore](https://github.com/MartinReiche/gatsby-firestore)
 [gatsby-firesource](https://github.com/tomphill/gatsby-firesource)

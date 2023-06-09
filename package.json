@@ -8,7 +8,7 @@
     "license": "MIT",
     "dependencies": {
         "firebase-admin": "^8.5.0",
-        "gatsby-cli": "^1.1.58"
+        "gatsby-cli": "^5.10.0"
     },
     "files": [
         "gatsby-node.js",

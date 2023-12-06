@@ -7,7 +7,7 @@
     "author": "Armen Halajyan <armenhalajyan@gmail.com>",
     "license": "MIT",
     "dependencies": {
-        "firebase-admin": "^8.5.0",
+        "firebase-admin": "^11.1.0",
         "gatsby-cli": "^1.1.58"
     },
     "files": [
